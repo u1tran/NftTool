@@ -5,7 +5,7 @@ import time
 import base64
 from pytoniq_core import Address
 from dotenv import dotenv_values
-
+//reform this two lines, i see cycle
 config = dotenv_values(".env")
 apiKey = config["API_KEY_TONCENTER"]
 queryURL = "https://toncenter.com/api/v3"
